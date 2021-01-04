@@ -1,0 +1,17 @@
+{
+  "name": "mongoose-typescript-showcase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "mongoose": "5.11.8",
+    "node": "^15.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
